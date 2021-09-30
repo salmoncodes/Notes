@@ -14,9 +14,9 @@ Variables involved in the condition should be properly initialized and evaluat-a
 ** Syntax
 *while* condition:
 
-    /statement 1/
-    /statement 2/
-    ...
+    + /statement 1/
+    + /statement 2/
+    + ...
 
 
 * For Loops
