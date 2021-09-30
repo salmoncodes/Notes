@@ -13,6 +13,7 @@ Variables involved in the condition should be properly initialized and evaluat-a
 
 ** Syntax
 *while* condition:
+
     /statement 1/
     /statement 2/
     ...
@@ -42,6 +43,7 @@ x = will be x greater than the previous a
 
 ** Syntax
 *for i in range (n):*
+
     print("Something")
 
 /The output would have "Something" printed 5 times./
