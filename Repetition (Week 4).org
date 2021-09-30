@@ -35,9 +35,9 @@ A function where it will produce a sequence of integers starting at 0 but not in
 
 Ranges don't have to start from zero:
 /range(a, n, x)/
-a = range starts at a
-n = range does not include n
-x = will be x greater than the previous a 
+    + a = range starts at a
+    + n = range does not include n
+    + x = will be x greater than the previous a 
 
 
 
