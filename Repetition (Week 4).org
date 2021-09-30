@@ -1,0 +1,51 @@
+# Repetition
+
+* Repetition
+** Christine Doan. UCM - CS024, Fall 2021 w/ Angelo Kryliov
+
+
+* While Loops
+This is used to handle repetitions. It will loop while the evaluation/condition
+remains *true* . You /must/ have some sort of condition that will be False or else 
+you will have an infinite loop (make a sentinel value, which will stop the program).
+
+Variables involved in the condition should be properly initialized and evaluat-able.
+
+** Syntax
+*while* condition:
+    /statement 1/
+    /statement 2/
+    ...
+
+
+* For Loops
+This is used for when we know the number of times we want to repeat (the loop).
+For loops operate on range objects, which is a sequence of integers.
+
+** range(n)
+A function where it will produce a sequence of integers starting at 0 but not including n.
+
+| range(n)      | sequence          |
+|---------------+-------------------|
+| range(5)      | 0, 1, 2, 3, 4     |
+| range(10)     | 0, 1...9          |
+| range(4)      | 0, 1, 2, 3        |
+| range(1, 10,2)| 1, 3, 5, 7, 9     |
+
+Ranges don't have to start from zero:
+/range(a, n, x)/
+a = range starts at a
+n = range does not include n
+x = will be x greater than the previous a 
+
+
+
+** Syntax
+*for i in range (n):*
+    print("Something")
+
+/The output would have "Something" printed 5 times./
+
+
+
+
