@@ -1,0 +1,19 @@
+* Creating outlines
+** Another outline
+*** Another one 
+
+#+TITLE: A title
+* TODO Do something
+* TODO Another thing
+* DONE Finished something
+* WAIT Waiting for something
+
+#+TITLE: Author documents
+*Bold?*
+/italics/
+_Underline_
+~Strike~
+
+[[link_path][Descriptor]]
+
+# This is a comment
