@@ -12,7 +12,7 @@
 *Bold?*
 /italics/
 _Underline_
-~Strike~
+~Highlight~
 
 [[link_path][Descriptor]]
 
