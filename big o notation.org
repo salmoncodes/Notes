@@ -9,16 +9,19 @@ It gives complexity in terms of (n) / input size
 
 * Rules
 1. Ignores constants
-    #+BEGIN_EXAMPLE 5n ---> O(n) or if you have a function running times of 5n, it runs O(n)
+    #+BEGIN_EXAMPLE 
+    5n ---> O(n) or if you have a function running times of 5n, it runs O(n)
     because it gets large the 5 doesn't matter as n grows 
     #+END_EXAMPLE
 
 2. Certain terms dominate others.
-    #+BEGIN_EXAMPLE O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
+    #+BEGIN_EXAMPLE 
+    O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
     #+END_EXAMPLE
 
 * Constant Time 
-#+BEGIN_EXAMPLE x = 5 + (15 * 20);
+#+BEGIN_EXAMPLE 
+x = 5 + (15 * 20);
 #+END_EXAMPLE
     Does not depend on input size, therefore it is O(1) or constant time 
 
