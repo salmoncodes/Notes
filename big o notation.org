@@ -32,7 +32,9 @@ print x + y;
 #+END_EXAMPLE
 
 Add each of their times for the notation.
+
 total time = O(1) + O(2) + O(3) which is 3 * O(1)
+
 But, we drop constants so this is still O(1).
 
 * Linear Time
@@ -41,6 +43,7 @@ for x in range(0, n): // for loops nth times
     print x; // O(1)
 #+END_EXAMPLE
     total time = N * O(1) 
+    
     This would be O(N).
 
 #+BEGIN_EXAMPLE 
@@ -50,7 +53,9 @@ for i in range (0, n): // O(N)
 #+END_EXAMPLE
 
     total time = O(1) + O(N)
+    
     Drop the lowest term, O(1).
+    
     This would be O(N) since for loop dominates run time.
 
 * Quadratic Time
@@ -61,6 +66,7 @@ for x in range (0, n): // O(N)
 #+END_EXAMPLE
 
     total time = N * N * O(1)
+    
     Since there are to loops, it would be O(N^2)
 
 * Examples
@@ -73,6 +79,7 @@ for x in range (0, n):
         print x * y;
 #+END_EXAMPLE
     total time = O(1) * O(n) * O(n^2)
+    
     total time = O(n^2) // Drop lowest terms 
 
 #+BEGIN_EXAMPLE 
@@ -84,4 +91,5 @@ else:
     // O(n^2)
 #+END_EXAMPLE
     Look at the loop with the largest run time/worst case.
+    
     total time = O(n^2)
